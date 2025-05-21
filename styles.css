@@ -1,0 +1,97 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0d1117;
+    color: #c9d1d9;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #161b22;
+  }
+  header .logo {
+    font-size: 1.5em;
+    color: #00aaff;
+  }
+  header .logo span {
+    color: #ffcc00;
+  }
+  header ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  header ul li a {
+    text-decoration: none;
+    color: #c9d1d9;
+  }
+  header .download-cv {
+    padding: 10px 20px;
+    background-color: #ff0077;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    
+    
+
+  }
+  
+  /* Home Section */
+  #home {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  .profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    margin: 20px auto;
+  }
+  .home-content h1 {
+    font-size: 2.5em;
+    color: white;
+  }
+  .home-content span {
+    color: #00aaff;
+  }
+  .social-links {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  .social-links a {
+    color: #00aaff;
+    font-size: 1.5em;
+  }
+  .actions {
+    margin-top: 20px;
+  }
+  .actions .btn {
+    padding: 10px 20px;
+    margin: 10px;
+    border: 2px solid #00aaff;
+    color: #00aaff;
+    background: none;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .actions .btn:hover {
+    background-color: #00aaff;
+    color: white;
+  }
+  
+  /* Stats Section */
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  .stats div {
+    text-align: center;
+  }
+  .stats h3 {
+    color: #ffcc00;
+  }

@@ -1,0 +1,154 @@
+/* Resetting some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0d1117;
+    color: #333;
+    line-height: 1.6;
+}
+
+.contact-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #0d1117;
+    color: #00aaff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #4CAF50;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.contact-form-section {
+    margin-bottom: 40px;
+    background-color: #0d1117;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    background-color: #0d1117;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #0d1117;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0d1117;
+    color:  #00aaff;
+    border: 2px solid #ff0077;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #423f33;
+}
+
+.contact-details {
+    background-color: #0d1117;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.contact-details h2 {
+    margin-bottom: 20px;
+}
+
+.contact-details ul {
+    list-style: none;
+}
+
+.contact-details li {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.contact-details li strong {
+    color: #4CAF50;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .contact-container {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 0.9em;
+    }
+
+    .contact-form button {
+        font-size: 1em;
+    }
+
+    .contact-details h2 {
+        font-size: 1.2em;
+    }
+
+    .contact-details li {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 0.85em;
+    }
+
+    .contact-form button {
+        font-size: 0.9em;
+    }
+
+    .contact-details h2 {
+        font-size: 1em;
+    }
+
+    .contact-details li {
+        font-size: 0.95em;
+    }
+}
